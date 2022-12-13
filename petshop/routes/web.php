@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+use App\Http\Controllers\EventController;
+
+Route::get('/', [EventController::class, 'index']);
+Route::get('/cadastros/cadastroprofissional', [EventController::class, 'cadastroprofissional']);
+Route::get('/cadastros/cadastropet', [EventController::class, 'cadastropet']);
+Route::get('/cadastros/agendamento', [EventController::class, 'agendamento']);
+Route::post('/cadastros',[EventController::class, 'store']);
