@@ -16,7 +16,7 @@
             <input type="text" class="form-control" name="especializacao" id="especializacao" placeholder="Especialização" required>
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" name="cpf" id="cpf" placeholder="CPF" required>
+            <input type="text" class="form-control" name="cpf_profissional" id="cpf_profissional" placeholder="CPF" required>
         </div>
         <input type="submit" class="btn btn-primary" value="Cadastrar">
     </form>

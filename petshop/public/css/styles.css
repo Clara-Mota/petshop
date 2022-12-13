@@ -48,8 +48,6 @@ header{
 #btn_login{
     margin-left: 110px;
 
-    
-
 }
 
 #logo{
@@ -65,14 +63,31 @@ header{
     margin-left: 50px;
 }
 
+/*menu*/
 #btn_menu2{
     background-color: #FF0676;
+    border: #FF0676;
+    color: #FFEE0C;
 
 }
+
+#btn_menu2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  } 
+
 #btn_menu1{
     background-color: #FFEE0C;
+    border: #FFEE0C;
+    color: #FF0676;
 
 }
+
+#btn_menu1:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    
+  } 
 
 .btn btn-primary {
 

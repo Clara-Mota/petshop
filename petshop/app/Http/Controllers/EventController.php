@@ -37,11 +37,11 @@ class EventController extends Controller
 
         $profissional->nome = $request->nome;
         $profissional->especializacao = $request->especializacao;
-        $profissional->cpf = $request->cpf;
+        $profissional->cpf_profissional = $request->cpf_profissional;
 
         $profissional->save();
 
-        return redirect('/menu');
+        return redirect('/cadastros/cadastroprofissional');
 
     }
 
