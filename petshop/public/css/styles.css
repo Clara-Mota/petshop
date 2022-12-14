@@ -19,6 +19,12 @@ header{
 
 }
 
+.btn-primary {
+    border: #FFEE0C;
+    background-color: #FFEE0C;
+    color: #ED056D;
+}
+
 .row{
     margin: 0;
 }
@@ -37,7 +43,6 @@ header{
     font-weight: bold;
 }
 /*Form Inicio*/
-
 #form_inicio{
     background-color: rgb(250, 248, 248);
     border-radius: 5px;
@@ -72,7 +77,6 @@ header{
     border: #FF0676;
     color: #FFEE0C;
     display: flex;
-
 }
 
 #btn_menu2:hover {
@@ -94,11 +98,16 @@ header{
     
   } 
 
-.btn btn-primary {
 
-    background-color: #FFEE0C;
+/*agenda*/
+#btn_agendamento{
+    margin-top: 250px;
+    margin-left: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+
 }
-
 
 /*footer*/
 footer {
