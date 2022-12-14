@@ -4,6 +4,18 @@
 
 @section('content')
 <header id=hd-cadastropet><h1>Cadastro Pet</h1></header>
+<ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="/menu">Menu</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/cadastros/cadastroprofissional">Cadastro Pofissional</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/agenda">Agenda</a>
+  </li>
+</ul>
+
 <form class="row g-6" action="" id="form_cadastropet">
     <div class="col-md-6">
         <h2>Tutor</h2>

@@ -4,22 +4,22 @@
 
 @section('content')
 
-<div class="row g-5">
-    <div class="col-md-12" >
+
+    <div class="col-md-12 btn btn1" >
         <a href="/cadastros/cadastropet"><button type="button" class="btn btn-primary" id="btn_menu1">Cadastro Pet/Tutor</button></a>
     </div>
-    <div class="col-md-12">
-        <a href="/cadastros/cadastroprofissional"><button type="button" class="btn btn-primary" id="btn_menu2">Cadastro Profissional</button></a>
+    <div class="col-md-12 btn">
+        <a href="/agenda"><button type="button" class="btn btn-primary" id="btn_menu2">Agenda</button></a>
     </div>
-    <div class="col-md-12">
-        <a href="/agenda"><button type="button" class="btn btn-primary" id="btn_menu1">Agenda</button></a>
+    <div class="col-md-12 btn">
+        <a href="/cadastros/cadastroprofissional"><button type="button" class="btn btn-primary" id="btn_menu1">Cadastro Profissional</button></a>
     </div>
-    <div class="col-md-12">
+    <div class="col-md-12 btn">
         <a href="#"><button type="button" class="btn btn-primary" id="btn_menu2">Página Pet</button></a>
     </div>
-    <div class="col-md-12">
+    <div class="col-md-12 btn">
         <a href="#"><button type="button" class="btn btn-primary" id="btn_menu1">Página Profissional</button></a>
     </div>
-</div>
+
 
 @endsection

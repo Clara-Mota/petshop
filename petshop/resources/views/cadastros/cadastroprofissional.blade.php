@@ -5,6 +5,19 @@
 @section('content')
 
 <header id=hd-cadastroprofissional><h1>Cadastro Profissional</h1></header>
+
+<ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="/menu">Menu</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/cadastros/cadastropet">Cadastro Pet</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/agenda">Agenda</a>
+  </li>
+</ul>
+
 <div id="profissional-creat-container" class="col-md-6 offset-md-3">
     <form action="/cadastros" method="POST">
         @csrf
@@ -27,4 +40,5 @@
         <input type="submit" class="btn btn-primary" value="Cadastrar">
     </form>
 </div>
+
 @endsection
