@@ -20,6 +20,7 @@ Route::get('/cadastros/cadastroprofissional', [EventController::class, 'cadastro
 Route::get('/cadastros/cadastropet', [EventController::class, 'cadastropet']);
 Route::get('/cadastros/agendamento', [EventController::class, 'agendamento']);
 Route::post('/cadastros',[EventController::class, 'store']);
+/*Route::post('/cadastros',[EventController::class,'auth'])->name('auth.login');*/
 
 Route::get('/', function () {
     return view('welcome');
@@ -32,3 +33,4 @@ Route::get('/menu', function () {
 Route::get('/agenda', function () {
     return view('agenda');
 });
+

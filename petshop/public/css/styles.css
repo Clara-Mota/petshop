@@ -28,6 +28,7 @@ header{
     width: 100%;
     background-color: #FF0676;
     align-items: center;
+    
 
 }
 .form-label{
@@ -41,8 +42,10 @@ header{
     background-color: rgb(250, 248, 248);
     border-radius: 5px;
     width: 300px;
-    height: 200px;
+    height: 300px;
     color: #FF0676;
+    box-shadow: rgba(250, 248, 248, 0.2) 0px 8px 24px;
+    
 }
 
 #btn_login{
@@ -68,6 +71,7 @@ header{
     background-color: #FF0676;
     border: #FF0676;
     color: #FFEE0C;
+    display: flex;
 
 }
 
@@ -80,6 +84,7 @@ header{
     background-color: #FFEE0C;
     border: #FFEE0C;
     color: #FF0676;
+    display: flex;
 
 }
 

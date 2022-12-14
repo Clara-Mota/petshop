@@ -18,6 +18,12 @@
         <div class="form-group">
             <input type="text" class="form-control" name="cpf_profissional" id="cpf_profissional" placeholder="CPF" required>
         </div>
+        <div class="form-group">
+            <input type="text" class="form-control" name="email" id="email" placeholder="E-mail" required>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" name="password" id="password" placeholder="Crie uma senha" required>
+        </div>
         <input type="submit" class="btn btn-primary" value="Cadastrar">
     </form>
 </div>

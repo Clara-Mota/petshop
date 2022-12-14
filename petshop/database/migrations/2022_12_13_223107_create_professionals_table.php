@@ -20,6 +20,8 @@ return new class extends Migration
             $table->string('nome',100);
             $table->string('especializacao',40);
             $table->string('cpf_profissional',11);
+            $table->string('email');
+            $table->string('password');
         });
     }
 
